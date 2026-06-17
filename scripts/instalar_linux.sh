@@ -23,7 +23,7 @@ if [ -d ~/transfer_texto/.git ]; then
     git pull
 else
     echo "📦 Descargando repositorio..."
-    git clone https://github.com/TU_USUARIO/transfer-texto.git ~/transfer_texto_temp
+    git clone https://github.com/urzagaste222/transfer-texto.git ~/transfer_texto_temp
     cp -r ~/transfer_texto_temp/* ~/transfer_texto/
     rm -rf ~/transfer_texto_temp
 fi
